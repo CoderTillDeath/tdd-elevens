@@ -27,4 +27,6 @@ class DeckTests extends FunSuite with BeforeAndAfter
     for(i <- 1 to 53) {deck.drawCard()}
     assert(deck.cardsLeft() == 0)
   }
+  //couldn't think of anymore deck tests :(
+
 }
